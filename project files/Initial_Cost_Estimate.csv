@@ -1,0 +1,12 @@
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,16.6,199.20,USD,Number of interface VPC endpoints per region (1)
+My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,74.7,896.40,USD,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),,S3 Standard,0,21.07,252.84,USD,S3 Standard storage (200 GB per month)
+My Estimate,US East (N. Virginia),,Amazon EC2,0,850.48,10205.76,USD,"Operating system (Linux), Quantity (4), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage for each EC2 instance (Provisioned IOPS SSD (io1)), Storage amount (200 GB), Provisioning IOPS (2), Instance type (a1.4xlarge)"
+My Estimate,US East (N. Virginia),,Amazon RDS for PostgreSQL,0,5536.43,66437.16,USD,"Quantity (1), Pricing strategy (Standard Reserved Instances 1 Year No Upfront), Storage volume (Provisioned IOPS SSD (io1)), Provisioning IOPS (1000), Storage amount (30 GB per month), Instance type (db.m5.16xlarge), Additional backup storage (30 GB)"
+My Estimate,US East (N. Virginia),,Classic Load Balancer,0,2372.5,28470.00,USD,"Number of Classic Load Balancers (2), Processed bytes per CLB (200 GB per hour)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
